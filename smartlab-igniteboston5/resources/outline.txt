@@ -1,0 +1,96 @@
+1. what is it
+Science should be open, sexy, and fun.
+  Where open source lab instruments, open data protocols, and electronic lab notebooks meet
+  large format multitouch installations and augmented reality technologies,
+  there will be tons of awesome, learning-by-doing, and fun.
+
+    large display table
+      here, have a picture of reactable and of multitouch table
+      instrument++
+      open gel box 2.0 with imaging directly onto table
+      high res cameras for logging results
+
+  Flow of talk parallels flow of usage of final project:
+  open instruments -> mix in artful hacking env, then output to electronic lab notebooks
+    1 part open source lab instruments
+    1 part artful hacking for an engaging, "flowful" experience
+    1 part open science
+
+1.1. open source lab instruments
+  (show of hands, who uses open source tools on a daily basis)
+  (now, open-source or not, how many of you built some of the tools you use on a daily basis?)
+  (out of curiosity, any astronomers? (in a really loose sense?) how many biologists?)
+
+* encouraging a culture of makers/builders/DIYers for chem/bio instruments
+* enhanced instruments * instrument hacking * DIYbio * free
+
+  dyson's quote
+
+  "so, what are we working with?"
+  target sciences - anything like cooking
+    synthetic and molecular biology
+    genetics
+    organic, bio, physical, and synthetic chemistry
+  the sciences we're targetting largely consist of moving small volumes of liquid around;
+    mixing them, separating them, and measuring different properties of them.
+    here, have a slide full of pictures of lab equipment
+  modified instruments that track the movement of small fluids
+  modified instruments that automatically log any data measurements performed
+
+  core platform + instruments
+  open data logging protocols and formats
+  lab managment software (LIMS)
+  intelligent guidance from semantic data
+  open data formats for protocol specification (CLP-ML)
+  protocol planner
+  protocol guide
+  integrated lab robotics
+  open source high-throughput technologies
+
+1.2. artful hacking for an engaging, flowful experience
+multitouch
+computer vision
+augmented reality
+reactable
+making your work more fun is not achieved by saccharine-izing it; it's achieved by reinforcing flow.
+  sudo gem install zentest && sudo gem install redgreen
+
+HCI/sexiness
+  workflow recordind and annotation
+  artful hacking
+  visuals
+  large format data representation
+  lifestreaming
+  intuitive data processing
+  sexy and fun
+  futurism
+  interactive
+  make science as fun as a video game
+  awesome museum installation
+  public outreach
+  appeal
+
+1.3. open science (recording, publishing)
+openwetware.org is the github.com of science (not everybody uses it, just those who "get it" ;)
+(what's the IRC of science? if you know, tell me)
+
+electronic lab notebook
+instant imaging to notebook
+wiki
+collaboration
+realtime video
+remote lab science
+
+2. where is it right now
+basement tinkering
+betahouse devhouse boston 5
+hackerspace willoughbybaltic.com
+
+3. get involved
+scientists, enthusiasts, tinkerers, makers
+artists, HCIers, designers, interactive folks
+programmers, roboticists, electronics hackers
+natural philosophers, practical physicists
+free open source hardware/software lovers
+
+projectsmartlab.org
