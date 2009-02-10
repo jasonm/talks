@@ -44,9 +44,7 @@ This talk:
 !slide let's get familiar (picture of scientist with pipette)
   "so, what are we working with?"
   target sciences - anything like cooking
-    synthetic and molecular biology
-    genetics
-    organic, bio, physical, and synthetic chemistry
+    chemistry, synthetic and molecular biology, genetics
   the sciences we're targetting largely consist of moving small volumes of liquid around;
     mixing them, sorting and separating them by different properties,
     and measuring different properties of them such as:
@@ -167,3 +165,13 @@ and soon sporting a biology wetlab.
   programmers, roboticists, electronics hackers
   natural philosophers, practical physicists
   free open source hardware/software lovers
+
+
+images
+http://a4www.igd.fraunhofer.de/media/upload/projects/project-image1-48.jpg
+http://images.google.com/images?q=data%20visualization&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&sa=N&hl=en&tab=wi
+http://informationesthetics.org/documents/scienceMapPrintMockupEd2.jpg
+
+
+
+
