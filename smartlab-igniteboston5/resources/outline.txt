@@ -1,96 +1,169 @@
-1. what is it
-Science should be open, sexy, and fun.
-  Where open source lab instruments, open data protocols, and electronic lab notebooks meet
-  large format multitouch installations and augmented reality technologies,
-  there will be tons of awesome, learning-by-doing, and fun.
+timelog
+0.5h
+2/8: 2h
+2/9: 715p-845p
 
-    large display table
-      here, have a picture of reactable and of multitouch table
-      instrument++
-      open gel box 2.0 with imaging directly onto table
-      high res cameras for logging results
+sections:
+  0. intro / background        (2)
+  1. what is it?
+  1.1. open source instruments (5)
+  1.2. artful hacking          (4)
+  1.3. open science            (1)
+  2. where is it right now     (1)
+  3. get involved              (1)
 
+!0. introduction / background
+!slide fun, sexy, open
+  Science should be open
+  Science should be sexy
+  Science should be fun
+say:
+  SmartLab is:
+  Where "opened source" lab instruments, open data protocols, and electronic lab notebooks
+  meet large format interactive displays and augmented reality,
+  with a goal of making science more fun, engaging, and with more flow.
+
+  We've got guitar hero, and photoshop hero.
+  I want pipette hero.
+
+!slide pictures with the below "flow of talk", with "SmartLab" at the bottom
+  Picture: reactable, multitouch table
+  Diagram: flowchart, open gel box 2.0 with imaging directly onto table, going to OWW
+  Diagram: high res cameras for logging results
+
+This talk:
   Flow of talk parallels flow of usage of final project:
   open instruments -> mix in artful hacking env, then output to electronic lab notebooks
-    1 part open source lab instruments
-    1 part artful hacking for an engaging, "flowful" experience
-    1 part open science
+    Record data with:                    1 part open source lab instruments
+    Visualize & interact with data with: 1 part artful hacking for an engaging, "flowful" experience
+    Publish your results with:           1 part open science
 
-1.1. open source lab instruments
-  (show of hands, who uses open source tools on a daily basis)
-  (now, open-source or not, how many of you built some of the tools you use on a daily basis?)
-  (out of curiosity, any astronomers? (in a really loose sense?) how many biologists?)
+!1. what is it?
 
-* encouraging a culture of makers/builders/DIYers for chem/bio instruments
-* enhanced instruments * instrument hacking * DIYbio * free
-
-  dyson's quote
-
+!1.1. "opened source" lab instruments
+!slide let's get familiar (picture of scientist with pipette)
   "so, what are we working with?"
   target sciences - anything like cooking
     synthetic and molecular biology
     genetics
     organic, bio, physical, and synthetic chemistry
   the sciences we're targetting largely consist of moving small volumes of liquid around;
-    mixing them, separating them, and measuring different properties of them.
-    here, have a slide full of pictures of lab equipment
+    mixing them, sorting and separating them by different properties,
+    and measuring different properties of them such as:
   modified instruments that track the movement of small fluids
   modified instruments that automatically log any data measurements performed
 
-  core platform + instruments
-  open data logging protocols and formats
-  lab managment software (LIMS)
-  intelligent guidance from semantic data
-  open data formats for protocol specification (CLP-ML)
-  protocol planner
-  protocol guide
-  integrated lab robotics
-  open source high-throughput technologies
+!slide "opened source" instruments
+  1-Show of hands, how many scientists?
+  2-Scientist or not, who uses open source tools?
+  3-Open-source or not, who builds tools you use?
 
-1.2. artful hacking for an engaging, flowful experience
-multitouch
-computer vision
-augmented reality
-reactable
-making your work more fun is not achieved by saccharine-izing it; it's achieved by reinforcing flow.
-  sudo gem install zentest && sudo gem install redgreen
+I want everybody to do two things:
+(1) Rebuild existing tools from scratch, in an open way.
+(2) Hack proprietary tools and document their innards in an open way.
 
-HCI/sexiness
-  workflow recordind and annotation
-  artful hacking
-  visuals
-  large format data representation
-  lifestreaming
-  intuitive data processing
-  sexy and fun
-  futurism
-  interactive
-  make science as fun as a video game
-  awesome museum installation
-  public outreach
-  appeal
+!slide freeman dyson's quote
 
-1.3. open science (recording, publishing)
-openwetware.org is the github.com of science (not everybody uses it, just those who "get it" ;)
-(what's the IRC of science? if you know, tell me)
+I want a culture of makers/builders/DIYers in chemistry and biology.
+I want enhanced instruments, hacked instruments, DIY instruments, free and open instruments,
+because this *will* make science cheaper, more transparent, more approachable, and more fun.
 
-electronic lab notebook
-instant imaging to notebook
-wiki
-collaboration
-realtime video
-remote lab science
+I love this quote by Freeman Dyson, illustrating the gap between astronomers and biologists;
+astronomers do it yourself, biologists (traditionally) don't.  Change that, full stop.
+DIYbio is one part; open instruments is part of that.
 
-2. where is it right now
-basement tinkering
-betahouse devhouse boston 5
-hackerspace willoughbybaltic.com
+!slide open data logging: physical interfaces, data transfer protocols, data storage formats
 
-3. get involved
-scientists, enthusiasts, tinkerers, makers
-artists, HCIers, designers, interactive folks
-programmers, roboticists, electronics hackers
-natural philosophers, practical physicists
-free open source hardware/software lovers
+Once we have a collection of opened-source lab instruments, we can make them talk to one another,
+and to our computers.  Ideally, they would all have WiFi and little HTTP servers inside that
+serve and consume well-formed standards-compliant data markup.
 
-projectsmartlab.org
+There are already open formats for specifying protocols,
+specifying dependencies and instructions,
+kind of like a .deb and a Makefile all in one.
+That's great, there's the format, where's all the data *written up in that format?*
+
+!slide sketch of an open data workflow from protocols to planning to execution to logging and measuring to publication
+
+If we have semantically-encoded recipes ("protocols"), and well-formed streams of instrument data,
+we could build some crazy full-stack system that can guide us through protocols in realtime,
+itself receiving realtime feedback and confirmation from our instruments, while all the while
+logging this data for your later viewing, annotation, interpretation, and publication.
+
+# protocol planner
+# protocol guide (that wired article)
+# integrated lab robotics (robot scientist)
+# open source high-throughput technologies (polonator.org)
+
+!1.2. artful hacking for an engaging, flowful experience
+!slide multitouch usage video/imagery
+
+The right interactions and right feedback cues really reinforce a sense of flow.
+
+As a coder, I've got some sweet ones; autotest, continuous integration,
+an editor that is glued into my brain (vim).
+
+But, it's vastly more difficult to add these cues to real life than to
+Let's apply bleeding edge technology to do this, but do it thoughtfully.
+
+Making your work more fun is not achieved by sugar-dipping it;
+it's achieved by reinforcing flow.
+
+!slide sketch of controls for instruments
+NEEDS WORK (tie into previous)
+
+A carefully designed interface can give a common UI to your entire laboratory.
+
+Second, since the instruments can be directed by your computer, you can design scripts
+for your experiments, to automate common tasks.
+
+!slide sketch of protocol guide
+
+  imagine a large-format touch-interactive benchtop that projects data onto real physical objects
+  with two things: realtime measurements from your open instrumentation, and realtime guidance
+  on your semantically encoded protocol steps.
+
+  "Measure out 750uL of tris buffer and dispense it, 75uL at a time, into each of these 10 tubes,"
+  and then incubate for 1h.
+
+  IMAGE: protocol guide with these steps, and a timer and temp+sparkline in front of the incubator.
+
+!slide ??? visuals for data manipulation.  maybe cover of tufte book?
+
+  Now you have mountains of open, well-specified data, you can interact with it.
+  There's tons of software to do this already, but I think there's a really sweet niche to fill
+  in visualizing and manipulating data sets in a large-format and tactile way.
+
+!1.3. open science (recording, publishing)
+!slide open science resources (endpoints for these data paths) i.e. oww, arxiv, biologydirect, ntpre
+
+Now that you have all this wonderful data, how do you record and publish it?  Easy; you shouldn't
+have to, it should happen automatically.
+
+openwetware.org, to me, is the github of science
+full of recipes, results, people, data, schools, igem teams, and more.
+
+A fully open and integrated platform would make painless the process of capturing your results
+from instruments, annotating them on your laptop or interactive benchtop, and publishing them
+online.
+
+in the future, you could envision a platform like this enabling scientific telepresence,
+enabled by realtime video collaboration and remote lab science.
+
+!2. where is it right now
+!slide photo of devhouse
+This is the result of some of our basement tinkering and
+a hack day at betahouse at devhouse boston 5.
+
+Currently, we're moving the setup to a hackerspace in Davis Square called willoughbybaltic.com,
+which is a great place to work on it, with an electronics lab and several machining shops,
+and soon sporting a biology wetlab.
+
+!3. get involved
+!slide list of people with url at top:
+  projectsmartlab.org:
+  scientists, enthusiasts, tinkerers, makers
+  artists, designers, HCI and interactive pros
+  programmers, roboticists, electronics hackers
+  natural philosophers, practical physicists
+  free open source hardware/software lovers
