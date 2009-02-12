@@ -32,43 +32,43 @@ say:
   Diagram: high res cameras for logging results
 
 This talk:
-  Flow of talk parallels flow of usage of final project:
-  open instruments -> mix in artful hacking env, then output to electronic lab notebooks
-    Record data with:                    1 part open source lab instruments
-    Visualize & interact with data with: 1 part artful hacking for an engaging, "flowful" experience
-    Publish your results with:           1 part open science
+  Sections of this talk parallel the way you use the final product:
+    1st Record data with:                    open source lab instruments
+    2nd Visualize & interact with data with: a tactile and beautiful platform.
+                                             Think "artful hacking" for building an engaging, "flowful" experience
+    3rd Publish your results with:           electronic lab notebooks and web-based open access
+                                             publishing platforms.
 
 !1. what is it?
 
 !1.1. "opened source" lab instruments
 !slide let's get familiar (picture of scientist with pipette)
   "so, what are we working with?"
-  target sciences - anything like cooking
-    chemistry, synthetic and molecular biology, genetics
-  the sciences we're targetting largely consist of moving small volumes of liquid around;
-    mixing them, sorting and separating them by different properties,
-    and measuring different properties of them such as:
-  modified instruments that track the movement of small fluids
-  modified instruments that automatically log any data measurements performed
+  The target sciences are anything like cooking.
+  For example, chemistry, synthetic biology, molecular biology, and genetics.
+
+  These consist of moving tiny volumes of liquid around, some of which contain interesting molecules.
+  We want to mix them, measure and record different properties of them,
+  as well as sort them or separate them based on these properties.
 
 !slide "opened source" instruments
   1-Show of hands, how many scientists?
   2-Scientist or not, who uses open source tools?
-  3-Open-source or not, who builds tools you use?
+  3-Open-source or not, how many of you build the tools you use?
 
 I want everybody to do two things:
-(1) Rebuild existing tools from scratch, in an open way.
+(1) Invent new tools or rebuild existing tools from scratch, in an open way.
 (2) Hack proprietary tools and document their innards in an open way.
 
 !slide freeman dyson's quote
 
+And that includes scientists.
 I want a culture of makers/builders/DIYers in chemistry and biology.
-I want enhanced instruments, hacked instruments, DIY instruments, free and open instruments,
-because this *will* make science cheaper, more transparent, more approachable, and more fun.
+I want enhanced tools, hacked tools, DIY tools, free and open tools,
+because this *will* make science more affordable, approachable, transparent, and fun.
 
 I love this quote by Freeman Dyson, illustrating the gap between astronomers and biologists;
 astronomers do it yourself, biologists (traditionally) don't.  Change that, full stop.
-DIYbio is one part; open instruments is part of that.
 
 !slide open data logging: physical interfaces, data transfer protocols, data storage formats
 
@@ -84,9 +84,9 @@ That's great, there's the format, where's all the data *written up in that forma
 !slide sketch of an open data workflow from protocols to planning to execution to logging and measuring to publication
 
 If we have semantically-encoded recipes ("protocols"), and well-formed streams of instrument data,
-we could build some crazy full-stack system that can guide us through protocols in realtime,
-itself receiving realtime feedback and confirmation from our instruments, while all the while
-logging this data for your later viewing, annotation, interpretation, and publication.
+we could build a system that can guide us through protocols in realtime.
+It receives realtime feedback and confirmation from our instruments that we're doing the right step,
+while logging the recorded data for your later viewing, annotation, interpretation, and publication.
 
 # protocol planner
 # protocol guide (that wired article)
@@ -174,4 +174,5 @@ http://informationesthetics.org/documents/scienceMapPrintMockupEd2.jpg
 
 
 
-
+watchmaker http://flickr.com/photos/dashananda/310662720/
+multitouch interaction http://flickr.com/photos/millynet/98031764/
